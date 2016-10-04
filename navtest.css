@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav {
+    font-family: Century Gothic, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #eee;
+    padding: 5px;
+    height: 38px;
+    width: 913px;
+    font-weight: bold;
+    border-style:solid;
+    border-width:4px;
+    border-color: #000;
+    text-align: center;
+}
+#nav ul {
+    list-style: none;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    margin: 0 auto;
+}
+#nav ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+}
+#nav ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+}
+#nav ul li a:hover {
+    color: #CD0000;
+}
