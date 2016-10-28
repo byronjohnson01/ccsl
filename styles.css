@@ -1,9 +1,18 @@
+body {
+
+    background-color: black;
+}
+
+h1   {color: white;}
+
 body,button,a {
   text-align: center;
   font-family: segoe ui;
-  min-width: 160px;
+  min-width: 100px;
 
 }
+
+
 
 
 .ul {
