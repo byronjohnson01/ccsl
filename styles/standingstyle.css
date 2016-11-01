@@ -1,0 +1,24 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding: 8px;
+    
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th.club {
+	width:20%;
+}
+
+th.pos, th.win, th.draw, th.loss, th.for, th.agst, th.goaldiff, th.pts, th.games {
+  width: 5%
+}
