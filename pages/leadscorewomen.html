@@ -3,14 +3,39 @@
 <head>
 </head>
 <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding: 8px;
+    
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th.goals {
+  width:5%;
+}
+
+th.name, th.team {
+  width: 15%
+}
+
 </style>
 <body>
 <h1 align="center">Leading Scorers Women</h1>
 <table align="center">
   <tr>
-    <th>Goals</th>
-    <th>Name</th>
-    <th>Team</th>
+    <th class="goals">Goals</th>
+    <th class="name">Name</th>
+    <th class="team">Team</th>
   </tr>
   <tr>
     <td></td>
