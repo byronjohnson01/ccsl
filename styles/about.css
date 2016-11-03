@@ -1,0 +1,15 @@
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px
+	font-weight: bold;
+
+
+}
+.about > article > section {
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	color: white;
+
+}
