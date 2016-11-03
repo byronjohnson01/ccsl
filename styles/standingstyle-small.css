@@ -1,0 +1,25 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    padding: 8px;
+    width: 20%;
+    
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th.club {
+	width: 3%;
+}
+
+th.pts, th.pos, th.win, th.games {
+  width: 1%
+}

@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title></title>
+    <style>
+        body {
+            padding: 0px 0;
+            text-align: center;
+            display: block;
+        }
+
+        p, h1 {
+            font-size: 30px;
+        }
+
+        status {
+            display: inline-block;
+        }
+
+        input {
+            text-align: center;
+        }
+    </style>
 </head>
-<style>
-body {
 
-    padding: 0px 0;
-    text-align: center;
-	display: block;
-
-}
-p, h1 {
-	font-size: 30px;
-}
-
-status {
-	display: inline-block;
-}
-
-input { 
-    text-align: center; 
-}
-
-</style>
 <body>
-<br>
-<div>
+    <br>
+    <div>
 
-    <p>Spring
-    <span id="season">
-        <script>document.getElementById('season').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-    </span>
-    </p>
-    <p align="center">Player Registration</p>
-</div>
+        <p>
+            Spring
+            <span id="season">
+                <script>document.getElementById('season').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            </span>
+        </p>
+        <p align="center">Player Registration</p>
+    </div>
 
-<div class="lastday">
-	Last Day To Registar:<br>
-    <input type="text" id="lastday" name="lastday" value="Date Here" disabled />
-</div>
+    <div class="lastday">
+        Last Day To Registar:<br>
+        <input type="text" id="lastday" name="lastday" value="Date Here" disabled />
+    </div>
 
-<br>
-<div class="status">
-	Registration Status:<br>
-    <input type="text" id="status" name="status" value="closed" disabled />
-</div>
-<br>
-<br>
-<br>
+    <br>
+    <div class="status">
+        Registration Status:<br>
+        <input type="text" id="status" name="status" value="closed" disabled />
+    </div>
+    <br>
+    <br>
+    <br>
 
 
 
-<form action="action_page.php">
-  Password:<br>
-  <input type="password" name="regpassword" value="" >
-  <br>
-  <br>
-  <br>
-  <input type="submit" value="Submit" >
-</form>
+    <form action="action_page.php">
+        Password:<br>
+        <input type="password" name="regpassword" value="">
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
