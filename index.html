@@ -1,114 +1,49 @@
 <!doctype html>
+<!-- IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+    h1 {
+        text-align: center;
+    }
+    .right-column {
+        float: right;
+    }
+    img {
+        float: none;
+    }
+    
+</style>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>CCSL</title>
-    <link rel="stylesheet" href="/styles/navnew2.css">
+    <title> Colorado Coed Soccer Club</title>
+  <meta charset=" utf-8">
+
+<meta name="description" content="">
+
+
+    <link rel="stylesheet" href="/styles/navtest2.css">
     <link rel="stylesheet" href="/styles/navnew.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+
+<link href="styles/ddmenu.css" rel="stylesheet" type="text/css" />
+<script src="scripts/ddmenu.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
-
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">CCSL</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li class="about">
-                    <a href="/pages/about.html">ABOUT</a>
-                    <ul>
-                        <li><a href="/pages/fieldmap.html" target="_myframe">Field Map</a></li>
-                        <li><a href="http://www.fifa.com/mm/Document/FootballDevelopment/Refereeing/02/36/01/11/LawsofthegamewebEN_Neutral.pdf" target="_blank">FIFA:Laws of the Game</a></li>
-                        <li>
-                            <a href="/documents/ColoradoCoedSoccerLeagueBylaws.pdf" target="_blank">League Rules</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="matches">
-                    <a href="#">MATCHES</a>
-                    <ul>
-                        <li><a href="/pages/calendar.html" target="_myframe">Season Schedule</a></li>
-                        <li><a href="/pages/playoffcalendar.html" target="_myframe">Playoff Schedule</a></li>
-                        <li><a href="#">Important Dates</a></li>
-                    </ul>
 
-                </li>
-                <li class="registration">
-                    <a href="#">REGISTRATION</a>
-                    <ul>
-                        <li><a href="/pages/registration.html" target="_myframe">PLAYER's</a></li>
-                        <li><a href="/pages/freeagents.html" target="_myframe">FREE AGENTS</a></li>
-                    </ul>
-                </li>
-                <li class="standings">
-                    <a href="/pages/standings.html">STANDINGS</a>
-                    <ul>
-                        <li><a href="/pages/leadscoremen.html" target="_myframe">MEN TOP SCORERS</a></li>
-                        <li><a href="/pages/leadscorewomen.html" target="_myframe">WOMEN TOP SCORERS</a></li>
-                    </ul>
+    <a id="ddmenuLink" href="menu.html">Menu</a>
+    <div class="right-column">
+        <ol id="standings-small"></ol>
+    </div>
+    <img src=/images/ball.jpg style="width:304px;height:228px;">
+    <script>
+        $("#standings-small").load("/pages/standings-small.html");
+    </script>
 
-
-                </li>
-
-                <li class="standings">
-                    <a href="/pages/standings.html">STANDINGS</a>
-                    <ul>
-                        <li><a href="/pages/leadscoremen.html" target="_myframe">MEN TOP SCORERS</a></li>
-                        <li><a href="/pages/leadscorewomen.html" target="_myframe">WOMEN TOP SCORERS</a></li>
-                    </ul>
-
-
-                </li>
-
-                <li class="clubs">
-                    <a href="#">CLUBS</a>
-                    <ul>
-                        <li><a href="#">BLANK & BOOTH</a></li>
-                        <li><a href="#">BREW CREW</a></li>
-                        <li><a href="#">GANG GREEN</a></li>
-                        <li><a href="#">GOAL MINERS</a></li>
-                        <li><a href="#">HIT OR MISS</a></li>
-                        <li><a href="#">KINGS & QUEENS</a></li>
-                        <li><a href="#">MOSCOW MULES</a></li>
-                        <li><a href="#">ONE GOOD BALL</a></li>
-                        <li><a href="#">PUB ON THE PITCH</a></li>
-                        <li><a href="#">STARS</a></li>
-                        <li><a href="#">TEAM OURAY</a></li>
-                        <li><a href="#">THREE LIONS FC</a></li>
-                        <li><a href="#">TIGERS</a></li>
-                        <li><a href="#">UNDERGROUND</a></li>
-                        <li><a href="#">UNKNOWNS</a></li>
-                        <li><a href="#">VYS SCORPIONS</a></li>
-                    </ul>
-
-                </li>
-
-                <li class="contact">
-                    <a href="/pages/contact.html">CONTACT</a>
-                    <ul>
-                        <li><a href="/pages/lostandfound.html" target="_myframe">LOST & FOUND</a></li>
-                    </ul>
-
-                </li>
-                <li class="admin">
-                    <a href="#">ADMIN</a>
-                    <ul>
-                        <li><a href="/pages/admin.html" target="_myframe">GAME REPORT</a></li>
-                    </ul>
-                </li>
-
-            </ul>
-            <div class="navbar-header navbar-right">
-                <p class="navbar-text">
-                    <a href="#" class="navbar-link">logon</a>
-                </p>
-            </div>
-        </div>
-    </nav>
 </body>
 </html>
