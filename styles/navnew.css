@@ -4,12 +4,18 @@ body {
   background: #ccc;
 }
 
+.nav {
+display: block!important;
+}
+
 .nav ul {
   list-style: none;
   background-color: #58d68d;
   text-align: center;
   padding: 0;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav li {
@@ -29,7 +35,7 @@ body {
 }
 
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: #FFFAF0;
 }
 
 .nav a.active {
@@ -52,11 +58,11 @@ body {
 
 @media screen and (min-width: 650px) {
   .nav li {
-    width: 250px;
+    width: 150px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
-    font-size: 1.4em;
+    font-size: 1em;
     display: inline-block;
     margin-right: -4px;
   }
