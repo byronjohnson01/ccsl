@@ -1,17 +1,10 @@
-h1 {
-	text-align: center;
-	color: Black;
-	font-size: 40px
-	font-weight: bold;
 
-
-
-}
 .about > article > section {
 	text-align: center;
 	font-style: italic;
-	font-size: 30px;
+	font-size: 25px;
 	color: Black;
-	padding-top: 50px;
+	padding-top: 100px;
 
 }
+
