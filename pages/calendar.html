@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Season Scedule</title>
     <style>
-        scedule {
-            padding 50px;
+        .scedule {
+            margin-top: 100px;
         }
 
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
             width: 100%;
+
         }
 
         td, th {
             border: 1px solid #000000;
             text-align: center;
             padding: 8px;
+            width: 1px;
         }
 
         tr:nth-child(even) {
             background-color: #dddddd;
+        }
+
+        tr {
+            text-align: center;
         }
     </style>
     <link rel="stylesheet" href="/styles/navtest2.css">
@@ -34,43 +40,44 @@
     <link href="/styles/ddmenu.css" rel="stylesheet" type="text/css" />
     <script src="/scripts/ddmenu.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <a id="ddmenuLink" href="/pages/menu.html">Menu</a>
 </head>
 <body>
-    <a id="ddmenuLink" href="/pages/menu.html">Menu</a>
-    <div id="scedule">
+  
+    <div class="scedule">
         <table>
             <tr>
                 <th> </th>
                 <th> </th>
-                <th colspan="5" style="width:1px">9:00</th>
+                <th colspan="5" style="text-align: center;">9:00</th>
 
-                <th colspan="5" style="width:10px">11:00</th>
-                <th colspan="5" style="width:1px">01:00</th>
-                <th colspan="5" style="width:10px">03:00</th>
+                <th colspan="5" style="text-align: center;">11:00</th>
+                <th colspan="5" style="text-align: center;">01:00</th>
+                <th colspan="5" style="text-align: center;">03:00</th>
             </tr>
             <tr>
-                <th style="width:1px">Date</th>
-                <th style="width:1px">Field</th>
-                <th style="width:1px">Home</th>
-                <th style="width:1px">Score</th>
-                <th style="width:1px"></th>
-                <th style="width:1px">Score</th>
-                <th style="width:1px">Away</th>
-                <th style="width:1px">Home</th>
-                <th style="width:1px">Score</th>
-                <th style="width:1px"></th>
-                <th style="width:1px">Score</th>
-                <th style="width:1px">Away</th>
-                <th style="width:1px">Home</th>
-                <th style="width:1px">Score</th>
-                <th style="width:1px"></th>
-                <th style="width:1px">Score</th>
-                <th style="width:1px">Away</th>
-                <th style="width:1px">Home</th>
-                <th style="width:1px">Score</th>
-                <th style="width:1px"></th>
-                <th style="width:1px">Score</th>
-                <th style="width:1px">Away</th>
+                <th style="width:1px; text-align:center;">Date</th>
+                <th style="width:1px; text-align:center;">Field</th>
+                <th style="width:1px; text-align:center;">Home</th>
+                <th style="width:1px; text-align:center;">Score</th>
+                <th style="width:1px; text-align:center;"></th>
+                <th style="width:1px; text-align:center;">Score</th>
+                <th style="width:1px; text-align:center;">Away</th>
+                <th style="width:1px; text-align:center;">Home</th>
+                <th style="width:1px; text-align:center;">Score</th>
+                <th style="width:1px; text-align:center;"></th>
+                <th style="width:1px; text-align:center;">Score</th>
+                <th style="width:1px; text-align:center;">Away</th>
+                <th style="width:1px; text-align:center;">Home</th>
+                <th style="width:1px; text-align:center;">Score</th>
+                <th style="width:1px; text-align:center;"></th>
+                <th style="width:1px; text-align:center;">Score</th>
+                <th style="width:1px; text-align:center;">Away</th>
+                <th style="width:1px; text-align:center;">Home</th>
+                <th style="width:1px; text-align:center;">Score</th>
+                <th style="width:1px; text-align:center;"></th>
+                <th style="width:1px; text-align:center;">Score</th>
+                <th style="width:1px; text-align:center;">Away</th>
 
 
 
@@ -517,6 +524,7 @@
 
         </table>
     </div>
+
 
 </body>
 </html>
