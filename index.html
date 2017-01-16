@@ -19,6 +19,7 @@
         float: none;
         margin-top: 100px;
     }
+AddType application/x-httpd-php .html .htm
 </style>
 <html lang="en">
 <head>
@@ -45,7 +46,14 @@
     <div class="right-column">
         <ol id="standings-small"></ol>
     </div>
-    <img src=/images/ball.jpg style="width:304px;height:228px;">
+        <div class="left-column">
+        <ol id="twitter-small"></ol>
+    </div>
+    <!--<img src=/images/ball.jpg style="width:304px;height:228px;">-->
+    <script>
+        $("#twitter-small").load("/pages/twitter.html");
+    </script>
+
     <script>
         $("#standings-small").load("/pages/standings-small.html");
     </script>
