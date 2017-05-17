@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover, .dropdown:hover .dropbtn {
+                    background-color: red;
+                }
+
+            li.dropdown {
+                display: inline-block;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="../index.html">CCSL</a></li>
+         <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Orgainization</a>
+            <div class="dropdown-content">
+                <a href="/pages/fieldmap.html">Field Maps</a>
+                <a href="http://www.fifa.com/mm/Document/FootballDevelopment/Refereeing/02/36/01/11/LawsofthegamewebEN_Neutral.pdf" target="_blank">FIFA:Laws of the Game</a>
+                <a href="/documents/ColoradoCoedSoccerLeagueBylaws.pdf" target="_blank">League Rules</a>
+                <a href="/pages/freeagents.html"target="_blank">Free Agents</a>
+                
+                <a href="/pages/comingsoon.html">Registration</a>
+            </div>
+        
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Teams</a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        <div>
+        <li style="float:right"><a class="active" href="#about">login</a></li>
+        </div>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Standings</a>
+            <div class="dropdown-content">
+                <a href="#">League Standings</a>
+                <a href="/pages/leadscoremen.html"  >Top Scorers Men</a>
+                <a href="/pages/leadscorewomen.html" >Top Scorers Women</a>
+            </div>
+
+
+        </li>
+        <li class="dropdown">
+            <a href="/pages/contact.html" class="dropbtn">Contact</a>
+            <div class="dropdown-content">
+              
+<a href="/pages/lostandfound.html" >LOST & FOUND</a>
+
+
+            </div>
+
+
+        </li>
+                <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Calendar</a>
+            <div class="dropdown-content">
+                          
+            <a href="/pages/schedules.html">Schedules</a>
+            <a href="/pages/playoffcalendar.html">Playoff Schedule</a>
+            <a href="/pages/comingsoon.html">Important Dates</a>
+            </div>
+
+
+        </li>
+                
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Administrator</a>
+            <div class="dropdown-content">
+                <a href="/pages/admin.html" >Game Report</a>
+                
+
+            </div>
+
+
+        </li>
+        
+    </ul>
+
+</body>
+</html>
